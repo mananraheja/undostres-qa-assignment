@@ -42,9 +42,9 @@ if __name__ == '__main__':
     # Storing button XPATHs
     xpath_buttons_dict = {
         "RECARGA_CELLULAR_BUTTON_XPATH": r'//*[@id="mainBlueContainer"]/div[1]/a[1]',
-        "NUMERO_TEXTBOX_XPATH"          : r'//*[@id="col-sm-12"]/form/div/div[1]/div[1]/div[2]/ul/li[2]',
+        "NUMERO_TEXTBOX_XPATH"         : r'//*[@id="col-sm-12"]/form/div/div[1]/div[1]/div[2]/ul/li[2]',
         "SIGUIENTE_BUTTON_XPATH"       : r'//*[@id="col-sm-12"]/form/div/div[1]/div[1]/div[3]/div/button',
-        "USAR_NUEVA_TARJETA_XPATH"            : r'//*[@id="radio-n"]/td/label/a/span',
+        "USAR_NUEVA_TARJETA_XPATH"     : r'//*[@id="radio-n"]/td/label/a/span',
         "TARJETA_BUTTON_XPATH"         : r'//*[@id="new-card-toggle"]/div/p',
         "AGREGAR_BUTTON_XPATH"         : r'//*[@id="applypromocardsaved"]',
         "PAGAR_CON_TARJETA_XPATH"      : r'//*[@id="paylimit"]/span',
